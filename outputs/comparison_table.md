@@ -1,0 +1,4 @@
+| Model | Trainable Parameters | Final Train Acc | Final Val Acc | Test Accuracy | Training Time (s) |
+|---|---|---|---|---|---|
+| PlainCNN | 269,722 | 0.8968 | 0.8692 | 0.8646 | 574.3 |
+| ResNetCNN | 272,474 | 0.9207 | 0.8874 | 0.8859 | 587.5 |

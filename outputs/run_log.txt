@@ -1,0 +1,80 @@
+Using device: cuda
+Train batches: 352 | Val batches: 40 | Test batches: 79
+
+===== Training PlainCNN (n=3) =====
+PlainCNN trainable parameters: 269,722
+Epoch   1/30 | train_loss=1.7630 train_acc=0.3281 | val_loss=1.5621 val_acc=0.4294
+Epoch   2/30 | train_loss=1.4002 train_acc=0.4876 | val_loss=1.9938 val_acc=0.4054
+Epoch   3/30 | train_loss=1.1202 train_acc=0.5994 | val_loss=1.0213 val_acc=0.6282
+Epoch   4/30 | train_loss=0.9733 train_acc=0.6552 | val_loss=1.6849 val_acc=0.4636
+Epoch   5/30 | train_loss=0.8808 train_acc=0.6912 | val_loss=1.0044 val_acc=0.6612
+Epoch   6/30 | train_loss=0.8230 train_acc=0.7149 | val_loss=1.1225 val_acc=0.6166
+Epoch   7/30 | train_loss=0.7792 train_acc=0.7305 | val_loss=0.8425 val_acc=0.7046
+Epoch   8/30 | train_loss=0.7526 train_acc=0.7416 | val_loss=1.0801 val_acc=0.6398
+Epoch   9/30 | train_loss=0.7283 train_acc=0.7498 | val_loss=0.9235 val_acc=0.6742
+Epoch  10/30 | train_loss=0.7040 train_acc=0.7587 | val_loss=0.8173 val_acc=0.7200
+Epoch  11/30 | train_loss=0.6863 train_acc=0.7647 | val_loss=0.8292 val_acc=0.7212
+Epoch  12/30 | train_loss=0.6800 train_acc=0.7660 | val_loss=0.9677 val_acc=0.6914
+Epoch  13/30 | train_loss=0.6702 train_acc=0.7690 | val_loss=0.9266 val_acc=0.7006
+Epoch  14/30 | train_loss=0.6612 train_acc=0.7738 | val_loss=1.0529 val_acc=0.6626
+Epoch  15/30 | train_loss=0.6515 train_acc=0.7775 | val_loss=0.8981 val_acc=0.7086
+Epoch  16/30 | train_loss=0.4691 train_acc=0.8384 | val_loss=0.4656 val_acc=0.8424
+Epoch  17/30 | train_loss=0.4206 train_acc=0.8556 | val_loss=0.4285 val_acc=0.8520
+Epoch  18/30 | train_loss=0.4008 train_acc=0.8626 | val_loss=0.4244 val_acc=0.8532
+Epoch  19/30 | train_loss=0.3869 train_acc=0.8656 | val_loss=0.4205 val_acc=0.8562
+Epoch  20/30 | train_loss=0.3767 train_acc=0.8699 | val_loss=0.4222 val_acc=0.8556
+Epoch  21/30 | train_loss=0.3693 train_acc=0.8732 | val_loss=0.4112 val_acc=0.8590
+Epoch  22/30 | train_loss=0.3554 train_acc=0.8772 | val_loss=0.4206 val_acc=0.8542
+Epoch  23/30 | train_loss=0.3287 train_acc=0.8875 | val_loss=0.3815 val_acc=0.8700
+Epoch  24/30 | train_loss=0.3199 train_acc=0.8897 | val_loss=0.3762 val_acc=0.8712
+Epoch  25/30 | train_loss=0.3150 train_acc=0.8923 | val_loss=0.3791 val_acc=0.8718
+Epoch  26/30 | train_loss=0.3114 train_acc=0.8927 | val_loss=0.3743 val_acc=0.8704
+Epoch  27/30 | train_loss=0.3113 train_acc=0.8934 | val_loss=0.3756 val_acc=0.8696
+Epoch  28/30 | train_loss=0.3075 train_acc=0.8937 | val_loss=0.3745 val_acc=0.8700
+Epoch  29/30 | train_loss=0.3079 train_acc=0.8942 | val_loss=0.3734 val_acc=0.8708
+Epoch  30/30 | train_loss=0.3018 train_acc=0.8968 | val_loss=0.3767 val_acc=0.8692
+PlainCNN FINAL TEST ACCURACY: 0.8646
+PlainCNN training time: 574.3s (9.6 min)
+
+===== Training ResNetCNN (n=3) =====
+ResNetCNN trainable parameters: 272,474
+Epoch   1/30 | train_loss=1.5757 train_acc=0.4099 | val_loss=1.5368 val_acc=0.4984
+Epoch   2/30 | train_loss=1.0846 train_acc=0.6102 | val_loss=1.5980 val_acc=0.4870
+Epoch   3/30 | train_loss=0.8945 train_acc=0.6860 | val_loss=1.0433 val_acc=0.6380
+Epoch   4/30 | train_loss=0.7930 train_acc=0.7229 | val_loss=0.9799 val_acc=0.6708
+Epoch   5/30 | train_loss=0.7181 train_acc=0.7516 | val_loss=1.2611 val_acc=0.6020
+Epoch   6/30 | train_loss=0.6797 train_acc=0.7636 | val_loss=1.3459 val_acc=0.6108
+Epoch   7/30 | train_loss=0.6453 train_acc=0.7754 | val_loss=1.0510 val_acc=0.6578
+Epoch   8/30 | train_loss=0.6196 train_acc=0.7861 | val_loss=0.8063 val_acc=0.7248
+Epoch   9/30 | train_loss=0.6104 train_acc=0.7897 | val_loss=1.0785 val_acc=0.6460
+Epoch  10/30 | train_loss=0.5895 train_acc=0.7967 | val_loss=0.6599 val_acc=0.7710
+Epoch  11/30 | train_loss=0.5778 train_acc=0.7996 | val_loss=1.0499 val_acc=0.6640
+Epoch  12/30 | train_loss=0.5624 train_acc=0.8049 | val_loss=0.8499 val_acc=0.7342
+Epoch  13/30 | train_loss=0.5520 train_acc=0.8109 | val_loss=0.8207 val_acc=0.7314
+Epoch  14/30 | train_loss=0.5446 train_acc=0.8145 | val_loss=0.7652 val_acc=0.7432
+Epoch  15/30 | train_loss=0.5359 train_acc=0.8158 | val_loss=0.8321 val_acc=0.7392
+Epoch  16/30 | train_loss=0.3812 train_acc=0.8697 | val_loss=0.3814 val_acc=0.8658
+Epoch  17/30 | train_loss=0.3369 train_acc=0.8856 | val_loss=0.3730 val_acc=0.8682
+Epoch  18/30 | train_loss=0.3187 train_acc=0.8914 | val_loss=0.3624 val_acc=0.8748
+Epoch  19/30 | train_loss=0.3013 train_acc=0.8974 | val_loss=0.3590 val_acc=0.8740
+Epoch  20/30 | train_loss=0.2938 train_acc=0.8979 | val_loss=0.3553 val_acc=0.8756
+Epoch  21/30 | train_loss=0.2841 train_acc=0.9030 | val_loss=0.3467 val_acc=0.8828
+Epoch  22/30 | train_loss=0.2779 train_acc=0.9044 | val_loss=0.3524 val_acc=0.8796
+Epoch  23/30 | train_loss=0.2516 train_acc=0.9154 | val_loss=0.3269 val_acc=0.8856
+Epoch  24/30 | train_loss=0.2458 train_acc=0.9162 | val_loss=0.3239 val_acc=0.8868
+Epoch  25/30 | train_loss=0.2400 train_acc=0.9177 | val_loss=0.3236 val_acc=0.8878
+Epoch  26/30 | train_loss=0.2388 train_acc=0.9184 | val_loss=0.3229 val_acc=0.8880
+Epoch  27/30 | train_loss=0.2345 train_acc=0.9201 | val_loss=0.3230 val_acc=0.8878
+Epoch  28/30 | train_loss=0.2282 train_acc=0.9222 | val_loss=0.3249 val_acc=0.8866
+Epoch  29/30 | train_loss=0.2331 train_acc=0.9198 | val_loss=0.3241 val_acc=0.8870
+Epoch  30/30 | train_loss=0.2306 train_acc=0.9207 | val_loss=0.3248 val_acc=0.8874
+ResNetCNN FINAL TEST ACCURACY: 0.8859
+ResNetCNN training time: 587.5s (9.8 min)
+
+===== COMPARISON TABLE =====
+| Model | Trainable Parameters | Final Train Acc | Final Val Acc | Test Accuracy | Training Time (s) |
+|---|---|---|---|---|---|
+| PlainCNN | 269,722 | 0.8968 | 0.8692 | 0.8646 | 574.3 |
+| ResNetCNN | 272,474 | 0.9207 | 0.8874 | 0.8859 | 587.5 |
+
+All outputs saved to: /content/cnn_resnet_project/outputs
